@@ -321,6 +321,10 @@ menu {
         width: 100%;
     }
 
+     .card .contenido a {
+         width: 100%;
+     }
+
 
 @media screen and (max-width: 400px){
 
@@ -329,6 +333,12 @@ menu {
         width: 100%;
     }
 
+        .card .contenido a {
+        display:inline;
+    }
+
+}
+}
 
 }
 }
