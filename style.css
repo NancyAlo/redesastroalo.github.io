@@ -131,6 +131,8 @@ menu {
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-5%);
+    width: 100%;
+    max-width: 1000px;
     
 }
 
@@ -321,10 +323,9 @@ menu {
         width: 100%;
     }
 
-     .card .contenido a {
-         width: 100%;
-     }
-
+    .card  {
+        width: 100%;
+    }
 
 @media screen and (max-width: 400px){
 
@@ -333,12 +334,9 @@ menu {
         width: 100%;
     }
 
-        .card .contenido a {
-        display:inline;
+    .card {
+        display:none;
     }
-
-}
-}
 
 }
 }
