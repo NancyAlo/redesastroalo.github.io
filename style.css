@@ -19,7 +19,8 @@ header{
 }
 
 .container {
-    max-width: 1100px;
+    width: 80%;
+    max-width: 11000px;
     margin: 0 auto;
 }
 
@@ -44,6 +45,8 @@ header{
 
 .menu .navbar ul {
     list-style: none;
+    width: 100%;
+    max-width: 1000px;
 
 }
 
@@ -80,7 +83,8 @@ menu {
 
 .header-text {
     text-align: center;
-    width: 700px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .header-text h1 {
@@ -107,15 +111,15 @@ menu {
 
 .container{
     width: 100%;
-    display: flex;
+    display:flex;
     max-width: 1000px;
 }
 
 .card {
-    width: 200%;
-    margin: 20px 10px;
+    width: 100%;
+    margin: 25px 10px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow:hidden;
     background: #cbcbcb;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor:default;
@@ -127,6 +131,7 @@ menu {
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-5%);
+    
 }
 
 
@@ -143,16 +148,20 @@ menu {
 }
 
 .card .contenido {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     background-position: center;
+    width: 100%;
+    max-width: 1000px;
 
 }
 
 .card .contenido a{
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     margin-top: 10px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .card .contenido a:hover {
@@ -303,4 +312,23 @@ menu {
 .btn-14:hover {
     background-color:rgb(119, 119, 119);
     transform: scale(1.1);
+
+}
+    
+@media screen and (max-width: 1000px){
+
+    .container {
+        width: 100%;
+    }
+
+
+@media screen and (max-width: 400px){
+
+
+    .container {
+        width: 100%;
+    }
+
+
+}
 }
