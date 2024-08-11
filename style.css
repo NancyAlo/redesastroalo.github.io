@@ -125,15 +125,12 @@ menu {
     cursor:default;
     align-items: center;
     text-align: center;
-   
+    transition: all 400ms ease;
 }
 
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-5%);
-    width: 100%;
-    max-width: 1000px;
-    
 }
 
 
@@ -323,7 +320,7 @@ menu {
         width: 100%;
     }
 
-    .card  {
+    .card .contenido a {
         width: 100%;
     }
 
@@ -334,7 +331,7 @@ menu {
         width: 100%;
     }
 
-    .card {
+    .card .contenido a {
         display:none;
     }
 
