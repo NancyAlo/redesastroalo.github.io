@@ -125,7 +125,7 @@ menu {
     cursor:default;
     align-items: center;
     text-align: center;
-    transition: all 400ms ease;
+   
 }
 
 .card:hover {
