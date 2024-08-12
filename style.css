@@ -192,8 +192,9 @@ menu {
 .btn-6 {
    display:inline-block;
    background-color: rgb(50, 50, 50);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -208,8 +209,9 @@ menu {
 .btn-7 {
    display: inline-block;
    background-color: rgb(20, 20, 20);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -225,8 +227,9 @@ menu {
 .btn-8 {
    display: inline-block;
    background-color: rgb(50, 50, 50);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -241,8 +244,9 @@ menu {
 .btn-10 {
    display: inline-block;
    background-color: rgb(20, 20, 20);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -257,8 +261,9 @@ menu {
 .btn-11 {
    display: inline-block;
    background-color: rgb(50, 50, 50);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -273,8 +278,9 @@ menu {
 .btn-13 {
    display: inline-block;
    background-color: rgb(50, 50, 50);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
@@ -289,8 +295,9 @@ menu {
 .btn-14 {
    display: inline-block;
    background-color: rgb(20, 20, 20);
+   font-size: 13px;
    margin-top: 25px;
-   padding: 15px 25px;
+   padding: 0;
    border-radius: 25px;
    color: rgb(243, 244, 244);
    transition: transform 0.5s ease;
